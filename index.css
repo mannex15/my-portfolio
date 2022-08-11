@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Exo 2";
+}
+
+#bg-image{
+	display: block;
+	background-image: url(https://images.pexels.com/photos/34586/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	height: 100vh;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-text-l1{
+	color: white;
+}
+
+.home-text-l2{
+	color: white;
+	font-size: 3rem;
+}
+
+.home-text-l3{
+	color: white;
+	font-size: 2rem;
+}
+
+.home-text-l4{
+	color: white;
+	font-size: 1.5rem;
+}
+
+.front-bg{
+	text-align: center;
+	display: block;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	background-attachment: fixed;
+}
+
+.home-button{
+	position: relative;
+	bottom: 0.25rem;
+	padding: 0.5rem;
+	border-radius:3em;
+	width: 200px;
+	text-decoration: none;
+}
+
+.me-profile{
+	height: 250px;
+	width: 250px;
+	text-align: center;
+}
+
+.project-card{
+	background-color: #576F72;
+}
+
+.contact-form{
+	background-color: #2B4865;
+}
+
+.contact-h3{
+	color: white;
+	border-bottom: thin solid white;
+	
+}
+
+footer{
+	background-color: #2B4865;
+	text-align: center;
+	height: 50px;
+	color: white;
+	padding: 1rem;
+	font-size: 0.75rem;
+	border-top: thin solid black;
+}
