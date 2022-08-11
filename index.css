@@ -6,6 +6,13 @@
 
 body{
 	font-family: "Exo 2";
+	font-size: 1.15rem;
+}
+
+.nav-bar-main{
+	display: flex;
+	float: left;
+	height: 50px;
 }
 
 #bg-image{
@@ -27,21 +34,26 @@ body{
 
 .home-text-l1{
 	color: white;
+	text-shadow: 3px 3px 3px #2b4865;
 }
 
 .home-text-l2{
 	color: white;
 	font-size: 3rem;
+	text-shadow: 4px 4px 4px #2b4865;
 }
 
 .home-text-l3{
 	color: white;
 	font-size: 2rem;
+	text-shadow: 3px 3px 8px #2b4865;
 }
 
 .home-text-l4{
 	color: white;
 	font-size: 1.5rem;
+	text-shadow: 3px 3px 8px #2b4865;
+	text-outlin
 }
 
 .front-bg{
@@ -72,6 +84,11 @@ body{
 	background-color: #576F72;
 }
 
+.project-img{
+	min-height: 150px;
+	max-height: 150px;
+}
+
 .contact-form{
 	background-color: #2B4865;
 }
@@ -80,6 +97,12 @@ body{
 	color: white;
 	border-bottom: thin solid white;
 	
+}
+
+.contact-details{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 footer{
